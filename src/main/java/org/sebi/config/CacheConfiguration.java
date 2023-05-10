@@ -83,6 +83,8 @@ public class CacheConfiguration {
             createCache(cm, org.sebi.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             createCache(cm, org.sebi.domain.PersistentToken.class.getName(), jcacheConfiguration);
             createCache(cm, org.sebi.domain.User.class.getName() + ".persistentTokens", jcacheConfiguration);
+            createCache(cm, org.sebi.domain.Stroopsub.class.getName(), jcacheConfiguration);
+            createCache(cm, org.sebi.domain.Order.class.getName(), jcacheConfiguration);
             // jhipster-needle-redis-add-entry
         };
     }

@@ -1,0 +1,24 @@
+{
+  "changelogDate": "20230123134540",
+  "entityTableName": "jhi_order",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "offer",
+      "fieldType": "Offers",
+      "fieldValues": "SMALL,MEDIUM,LARGE,STROOPMASTER"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Order",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
